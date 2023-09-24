@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    background-color: rgb(255, 252, 247);
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    position: relative;
+    top: 270px;
+    font-size: 40px;
+}
