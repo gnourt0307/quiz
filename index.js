@@ -72,7 +72,10 @@ const questions = [
     {
         title: 'Chúc mừng Thương đã xuất sắc hoàn thành các câu hỏi',
         answers: [],
-    }
+        correctAnswer: 0,
+        correctText: '',
+        incorrectText: ''
+    },
 ]
 
 let questionElement = document.getElementById('question')
@@ -125,8 +128,8 @@ nextQuestion.addEventListener('click',function(){
     answer.forEach(function(element,index){
         element.textContent = questions[i].answers[index]
         element.addEventListener('click', function(){
-            var random = Math.round(Math.random() * (900 - 50) + 50) +'px'
-            var random2 = Math.round(Math.random() * (1700 - 0) + 0) +'px'
+            var random = Math.round(Math.random() * (350 - 50) + 50) +'px'
+            var random2 = Math.round(Math.random() * (750 - 0) + 0) +'px'
             if (questions[i].correctAnswer == index){
                 document.getElementById('critic').innerHTML = questions[i].correctText
             }

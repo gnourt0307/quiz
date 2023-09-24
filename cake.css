@@ -13,9 +13,14 @@
     align-items: center;
 }
 
+img {
+    width: 242px;
+    height: 182.5px;
+}
+
 p {
     text-align: center;
     position: relative;
-    top: 270px;
-    font-size: 40px;
+    top: 80px;
+    font-size: 1rem;
 }
