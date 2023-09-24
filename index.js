@@ -128,7 +128,7 @@ nextQuestion.addEventListener('click',function(){
     answer.forEach(function(element,index){
         element.textContent = questions[i].answers[index]
         element.addEventListener('click', function(){
-            var random = Math.round(Math.random() * (250 - 50) + 50) +'px'
+            var random = Math.round(Math.random() * (150 - 50) + 50) +'px'
             var random2 = Math.round(Math.random() * (500 - 0) + 0) +'px'
             if (questions[i].correctAnswer == index){
                 document.getElementById('critic').innerHTML = questions[i].correctText
