@@ -104,7 +104,7 @@ nextQuestion.addEventListener('click',function(){
         document.getElementById('critic').style.display = 'block'
     }
     questionElement.innerHTML = questions[i].title
-    if (questionElement.innerHTML == 'Chúc mừng Thương đã xuất sắc hoàn thành các câu hỏi'){
+    if (questionElement.innerHTML == 'Chúc mừng Thương đã xuất sắc hoàn thành các câu hỏi của bạn'){
         document.getElementById('cake').style.display = 'block'
         nextQuestion.style.display = 'none'
         preQuestion.style.marginTop = '-80px'
@@ -167,7 +167,7 @@ preQuestion.addEventListener('click',function(){
         document.getElementById('critic').style.display = 'block'
     }
     questionElement.innerHTML = questions[i].title
-    if (questionElement.innerHTML == 'Chúc mừng Thương đã xuất sắc hoàn thành các câu hỏi'){
+    if (questionElement.innerHTML == 'Chúc mừng Thương đã xuất sắc hoàn thành các câu hỏi của bạn'){
         document.getElementById('cake').style.display = 'block'
         nextQuestion.style.display = 'none'
         preQuestion.style.marginTop = '-80px'
