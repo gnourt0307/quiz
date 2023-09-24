@@ -16,11 +16,13 @@
 img {
     width: 242px;
     height: 182.5px;
+    position: relative;
+    top: 30px;
 }
 
 p {
     text-align: center;
     position: relative;
-    top: 80px;
+    top: 90px;
     font-size: 1rem;
 }

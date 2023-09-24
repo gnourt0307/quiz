@@ -63,14 +63,14 @@ const questions = [
         incorrectText: 'Sai roi cu'
     },
     {
-        title: 'Thương có ghét bạn không?',
+        title: 'Câu 10: Thương có ghét bạn không?',
         answers: ['Có','Không'],
         correctAnswer: 0,
         correctText: 'ok ban hieu roi :<',
         incorrectText: 'Sai roi cu'
     },
     {
-        title: 'Chúc mừng Thương đã xuất sắc hoàn thành các câu hỏi',
+        title: 'Chúc mừng Thương đã xuất sắc hoàn thành các câu hỏi của bạn',
         answers: [],
         correctAnswer: 0,
         correctText: '',
@@ -91,7 +91,7 @@ nextQuestion.addEventListener('click',function(){
     document.getElementById('remove').removeAttribute('style')
     document.getElementById('remove').classList.remove('test')
     if(i < 0){
-        document.getElementById('question').innerHTML = 'Thương hãy trả lời các câu hỏi sau để ăn bánh sinh nhật'
+        document.getElementById('question').innerHTML = 'Thương hãy trả lời các câu hỏi sau để có cho mình 1 chiếc bánh sinh nhật cực kỳ thơm ngon'
         document.querySelector('ul').style.display = 'none'
         nextQuestion.innerHTML = 'gét gô'
         preQuestion.style.display = 'none'
@@ -128,8 +128,8 @@ nextQuestion.addEventListener('click',function(){
     answer.forEach(function(element,index){
         element.textContent = questions[i].answers[index]
         element.addEventListener('click', function(){
-            var random = Math.round(Math.random() * (350 - 50) + 50) +'px'
-            var random2 = Math.round(Math.random() * (750 - 0) + 0) +'px'
+            var random = Math.round(Math.random() * (250 - 50) + 50) +'px'
+            var random2 = Math.round(Math.random() * (500 - 0) + 0) +'px'
             if (questions[i].correctAnswer == index){
                 document.getElementById('critic').innerHTML = questions[i].correctText
             }
@@ -154,7 +154,7 @@ preQuestion.addEventListener('click',function(){
     document.getElementById('remove').removeAttribute('style')
     document.getElementById('remove').classList.remove('test')
     if(i < 0){
-        document.getElementById('question').innerHTML = 'Thương hãy trả lời các câu hỏi sau để ăn bánh sinh nhật'
+        document.getElementById('question').innerHTML = 'Thương hãy trả lời các câu hỏi sau để có cho mình 1 chiếc bánh sinh nhật cực kỳ thơm ngon'
         document.querySelector('ul').style.display = 'none'
         nextQuestion.innerHTML = 'gét gô'
         preQuestion.style.display = 'none'
@@ -183,7 +183,7 @@ preQuestion.addEventListener('click',function(){
     }
 
     else {
-        document.getElementById('rotate').innerHTML = 'Thương hãy trả lời các câu hỏi sau để ăn bánh sinh nhật'
+        document.getElementById('rotate').innerHTML = 'Phiền Thương quay ngang điện thoại nhé :3'
     }
     answer.forEach(function(element,index){
         element.textContent = questions[i].answers[index]

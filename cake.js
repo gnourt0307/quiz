@@ -5,25 +5,43 @@ const chat = [
     {
         text: 'Chê cái gì bạn cố gắng làm đẹp hết mức rồi >:('
     },
-    {   text: 'Sth'
+    {   text: 'xời ngon không'
     },
     {
-        text: 'hehehe'
+        text: 'bạn biết ngon mà'
     },
     {
-        text: 'hehehe2'
+        text: 'ơ ăn từ từ thôi'
     },
     {
-        text: 'hehehe3'
+        text: 'cho bạn với chứuuuuuu'
     },
     {
-        text: 'hehehe4'
+        text: 'vch 1 mình ăn hết luôn mà (ấn tiếp đi)'
     },
     {
-        text: 'hehehe'
+        text: 'biết Thương ăn nhìu nên bạn chuẩn bị 2 cái rồi =)))'
     },
     {
-        text: 'hehehe6'
+        text: 'nói chung là'
+    },
+    {
+        text: 'chúc Thương lúc nào cũng vui vẻ'
+    },
+    {
+        text: 'tích cực'
+    },
+    {
+        text: 'không bùn nhìu'
+    },
+    {
+        text: 'với cả luôn đáng iu như bây giờ nhé :33'
+    },
+    {
+        text: 'chúc Thương sinh nhật thiệt là zui zẻeeee'
+    },
+    {
+        text: 'hết òi, ra rep bạn đi còn gì nữa =)))'
     },
 ]
 
@@ -35,7 +53,7 @@ cake.addEventListener('click',function(){
     h++;
     text.innerHTML = chat[j].text;
     cake.src = "./assets/cake"+ h + ".png"
-    if (h >= 6){
+    if (h >= 7){
         cake.src = "./assets/cake1.png"
     }
 })
