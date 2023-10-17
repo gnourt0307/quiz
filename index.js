@@ -1,73 +1,75 @@
 const questions = [
     {
-        title: 'Câu hỏi 1',
-        answers: ['answer 1', 'answer 2', 'answer 3', 'answer 4'],
+        title: '1. Hôm này là ngày gì?',
+        answers: ['20/10', 'Sinh nhật Thu Thương', 'Ngày phụ nữ Việt Nam', 'Tất cả các đáp án trên'],
+        correctAnswer: 3,
+        correctText: 'Không gì chính xác hơn 👏👏',
+        incorrectText: 'Cũng đúng nhưng chưa có đủ'
+    },
+    {
+        title: '2. Hôm nay là 20-10, hỏi có tất cả bao nhiêu câu hỏi?',
+        answers: ['10 câu', '20 câu', '69 câu', 'cẹtu câu'],
+        correctAnswer: 0,
+        correctText: 'Ghê zậy bít luôn',
+        incorrectText: 'Thương thử lại đii',
+        incorrectText2: 'Thôi cũng tạm chấp nhận là đúng 😏 '
+    },
+    {
+        title: '3. Tại sao Thương nên uống nước đầy đủ 💧💧',
+        answers: ['Vì tốt cho sức khỏe', 'Tốt cho da', 'Cản thiện lưu thông', 'Loại bỏ độc tố'],
+        correctAnswer: 0,
+        correctText: 'Cái nào cũng đúng thôi nên là uống nhiều lên 😠😠',
+        incorrectText: 'Cái nào cũng đúng thôi nên là uống nhiều lên 😠😠'
+    },
+    {
+        title: '4. Chấm điểm độ lười của chính mình',
+        answers: ['10/10', 'Siêu lười', 'Hơi lười', '🦥'],
+        correctAnswer: 0,
+        correctText: 'Đúng là đồ lười 😒😒😒',
+        incorrectText: 'Đúng là đồ lười 😒😒😒'
+    },
+    {
+        title: '5. Tại sao Thương toàn đi bắt nạt trẻ con zậy',
+        answers: ['Vì chúng nó dễ lừa', 'Vì mình là người xấu', 'Vì mình thít', 'Vì zui'],
         correctAnswer: 1,
-        correctText: 'Chuan roi day',
-        incorrectText: 'Sai roi cu'
+        correctText: 'Không hiểu sao bạn lại chơi với người xấu 😒',
+        incorrectText: 'Quá là tồi',
+        incorrectText2: 'Mình zui nó bùn 🙄'
     },
     {
-        title: 'Câu hỏi 2',
-        answers: ['answer 23423', 'answer 2', 'answer 3', 'answer 4'],
-        correctAnswer: 2,
-        correctText: 'Chuan roi day',
-        incorrectText: 'Sai roi cu'
+        title: '6. Mèo là loài Thương thích, hỏi Felis Catus là loài gì',
+        answers: ['Mèo', 'Chó', '🐧', '🐸'],
+        correctAnswer: 0,
+        correctText: 'Trời bít lun hả, giỏi quá zậy',
+        incorrectText: 'Sai gòi nha'
     },
     {
-        title: 'Câu hỏi 3',
-        answers: ['answer 5234523', 'answer 2', 'answer 3', 'answer 4'],
-        correctAnswer: 3,
-        correctText: 'Chuan roi day',
-        incorrectText: 'Sai roi cu'
+        title: '7. Những đồ ăn Thương thích nhất là',
+        answers: ['Cái này bạn không biết thật', 'Nên là tí ra nhắn cho bạn đi', 'Đồ ngọt, nước... của hãng nào lun', 'Để bạn còn bít'],
+        correctAnswer: 0,
+        correctText: '',
+        incorrectText: ''
     },
     {
-        title: 'Câu hỏi 4',
-        answers: ['answer 234234', 'answer 2', 'answer 3', 'answer 4'],
-        correctAnswer: 3,
-        correctText: 'Chuan roi day',
-        incorrectText: 'Sai roi cu'
+        title: '8. Top những điều sai trái Thương đã làm với bạn',
+        answers: ['...', '...', '...', '...'],
+        correctAnswer: 0,
+        correctText: 'Đúng rồi làm gì có, điều duy nhất Thương sai là: sai gính >:3',
+        incorrectText: 'Đúng rồi làm gì có, điều duy nhất Thương sai là: sai gính >:3'
     },
     {
-        title: 'Câu hỏi 5',
-        answers: ['answer asdf', 'answer 2', 'answer 3', 'answer 4'],
-        correctAnswer: 3,
-        correctText: 'Chuan roi day',
-        incorrectText: 'Sai roi cu'
+        title: '9. Tại sao Thương lại đáng iu như zậy',
+        answers: ['...', '...', '...', '...'],
+        correctAnswer: 0,
+        correctText: 'ko có đáp án vì ko có cách nào diễn tả hết sự đáng iu ấyy >:)',
+        incorrectText: 'ko có đáp án vì ko có nào diễn tả hết sự đáng iu ấyy >:)'
     },
     {
-        title: 'Câu hỏi 6',
-        answers: ['answer 32432', 'answer 2', 'answer 3', 'answer 4'],
-        correctAnswer: 3,
-        correctText: 'Chuan roi day',
-        incorrectText: 'Sai roi cu'
-    },
-    {
-        title: 'Câu hỏi 7',
-        answers: ['answer acvd', 'answer 2', 'answer 3', 'answer 4'],
-        correctAnswer: 3,
-        correctText: 'Chuan roi day',
-        incorrectText: 'Sai roi cu'
-    },
-    {
-        title: 'Câu hỏi 8',
-        answers: ['answer ascv', 'answer 2', 'answer 3', 'answer 4'],
-        correctAnswer: 3,
-        correctText: 'Chuan roi day',
-        incorrectText: 'Sai roi cu'
-    },
-    {
-        title: 'Câu hỏi 9',
-        answers: ['answer asdf', 'answer 2', 'answer 3', 'answer 4'],
-        correctAnswer: 3,
-        correctText: 'Chuan roi day',
-        incorrectText: 'Sai roi cu'
-    },
-    {
-        title: 'Câu 10: Thương có ghét bạn không?',
+        title: '10. Thương có ghét bạn không? (bạn sẽ biết Thương chọn cái nào đó nha)',
         answers: ['Có','Không'],
         correctAnswer: 0,
         correctText: 'ok ban hieu roi :<',
-        incorrectText: 'Sai roi cu'
+        incorrectText: ''
     },
     {
         title: 'Chúc mừng Thương đã xuất sắc hoàn thành các câu hỏi của bạn',
@@ -117,8 +119,8 @@ nextQuestion.addEventListener('click',function(){
         preQuestion.style.marginTop = '0'
     }
 
-    if (questionElement.innerHTML == 'question 7'){
-        document.getElementById('rotate').innerHTML = 'Hehe'
+    if (questionElement.innerHTML == '10. Thương có ghét bạn không? (bạn sẽ biết Thương chọn cái nào đó nha)'){
+        document.getElementById('rotate').innerHTML = 'Bạn thích Thương nhiều lắm.'
     }
 
     else {
@@ -140,6 +142,12 @@ nextQuestion.addEventListener('click',function(){
                 element.style.width = 'fit-content'
                 element.style.height = 'fit-content'
                 element.style.padding = '0px'
+            }
+            else if(element.innerHTML == 'cẹtu câu'){
+                document.getElementById('critic').innerHTML = questions[i].incorrectText2
+            }
+            else if(element.innerHTML == 'Vì zui'){
+                document.getElementById('critic').innerHTML = questions[i].incorrectText2
             }
             else{
                 document.getElementById('critic').innerHTML = questions[i].incorrectText
@@ -178,8 +186,8 @@ preQuestion.addEventListener('click',function(){
         nextQuestion.style.display = 'block'
         preQuestion.style.marginTop = '0'
     }
-    if (questionElement.innerHTML == 'question 7'){
-        document.getElementById('rotate').innerHTML = 'Hehe'
+    if (questionElement.innerHTML == '10. Thương có ghét bạn không? (bạn sẽ biết Thương chọn cái nào đó nha)'){
+        document.getElementById('rotate').innerHTML = 'Bạn thích Thương nhiều lắm.'
     }
 
     else {

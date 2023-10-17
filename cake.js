@@ -43,6 +43,36 @@ const chat = [
     {
         text: 'hết òi, ra rep bạn đi còn gì nữa =)))'
     },
+    {
+        text: ''
+    },
+    {
+        text: ''
+    },
+    {
+        text: ''
+    },
+    {
+        text: ''
+    },
+    {
+        text: ''
+    },
+    {
+        text: ''
+    },
+    {
+        text: ''
+    },
+    {
+        text: ''
+    },
+    {
+        text: ''
+    },
+    {
+        text: 'Không có gì đâu Thương bị lừa rồi =))'
+    },
 ]
 
 var j = -1;
