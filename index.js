@@ -62,7 +62,7 @@ const questions = [
         answers: ['...', '...', '...', '...'],
         correctAnswer: 0,
         correctText: 'ko có đáp án vì ko có cách nào diễn tả hết sự đáng iu ấyy >:)',
-        incorrectText: 'ko có đáp án vì ko có nào diễn tả hết sự đáng iu ấyy >:)'
+        incorrectText: 'ko có đáp án vì ko có cách nào diễn tả hết sự đáng iu ấyy >:)'
     },
     {
         title: '10. Thương có ghét bạn không? (bạn sẽ biết Thương chọn cái nào đó nha)',
